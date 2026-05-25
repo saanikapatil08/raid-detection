@@ -1,0 +1,38 @@
+# Core data science
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# NLP and transformers
+transformers>=4.40.0
+torch>=2.1.0
+tokenizers>=0.19.0
+datasets>=2.19.0
+accelerate>=0.29.0
+
+# Text feature extraction
+nltk>=3.8.0
+# spacy>=3.7.0  -- requires Python >=3.10, skip for now
+textstat>=0.7.3
+
+# Detection-specific
+# openai-detector  -- not available on PyPI, use transformers pipeline directly
+
+# Experiment tracking
+tqdm>=4.66.0
+rich>=13.7.0
+
+# Notebooks
+jupyter>=1.0.0
+ipykernel>=6.29.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.20.0
+
+# HTTP / downloads
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
